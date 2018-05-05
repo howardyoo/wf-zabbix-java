@@ -1,4 +1,4 @@
-## Zabbix Integration JAVA version
+## Zabbix Wavefront Integration JAVA version
 ### Overview
 Zabbix Integration Tile existing on Wavefront is implemented with Python script that collects metrics collected in Zabbix server, by running queries to MySQL database. However, the integration script suffer from performance issues when dealing with large set of data, as python is not robust enough in terms of multi-threading and its performance on SQL extraction and reformatting.
 
